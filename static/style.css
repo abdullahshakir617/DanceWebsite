@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    
+
+}
+#logo img{
+    height: 40px;
+    filter: invert(1);
+    width: 45px;
+}
+#navbar{
+    background-color: rgb(2, 2, 2);
+    padding: 13px 14px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+     */
+    align-items: center;
+
+}
+
+#navbar li{
+    list-style-type: none;
+}
+
+#navbar li a{
+
+    text-decoration: none;
+    padding: 13px 30px;
+    color: beige;
+    font-size: 20px;
+
+}
+
+#navbar li a:hover{
+color: rgb(61, 247, 4);
+font-weight: bold;
+}
+
+#introSection div.small{
+    font-size: 25px;
+}
+#introSection{
+    color: azure;
+    height: 300px;
+    background: url("/static/bg.jpg") no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+
+}
+#missionSection {
+    text-align: center;
+    /* justify-content: center; */
+    height: 280px;
+
+}
+
+.card{
+    border: 2px solid black;
+    width: 30%;
+    height: 220px;
+    margin: 0px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+.card h3{
+    margin-top: 10px;
+
+
+}
+.card-box{
+    display: inline-block;
+
+}
+
+.card-content{
+    display: inline-block;
+    align-items: center;
+}
+
+.card-img{
+    height: 160px;
+
+}
+.card-img img{
+    height: inherit;
+}
+
+#sponsorSection h2{
+    text-align: center;
+
+}
+#sponsorSection{
+    background-color: rgb(165, 111, 111);
+    height: 281px;
+}
+
+#sponsors{
+    /* margin: auto; */
+    display: flex;
+    margin: 25px 324px;
+
+}
+
+#sponsors img{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+#footer{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}

@@ -1,0 +1,64 @@
+doctype html 
+html 
+    head
+        title This is a dance
+        style 
+            include ../static/style.css
+        
+    body 
+        nav#navbar 
+            ul 
+                div#logo
+                    img(src="/static/img/logo.jpg")
+                li #[a(href="/") Home ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Classes ]
+                li #[a(href="/") Contact Us] 
+                li #[a(href="/") About Us] 
+
+    section#introSection 
+        div Welcome to DEWAANA Dance Academy
+        div.small Eat Dance Sleep Repeat
+    
+    section#missionSection 
+        h2 Our Mission 
+        div.card
+            h3 Dance is an art
+            div.card-box
+                div.card-img
+                    img(src="/static/img/img1.jpg")
+                
+                div.card-content 
+                    p This is the best academy
+
+                    
+        div.card
+            h3 Dance your way
+            div.card-box
+                div.card-img
+                    img(src="/static/img/img2.jpg")
+                
+                div.card-content 
+                    p This is the best academy
+
+
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/img3.jpg")
+                
+                div.card-content 
+                    p This is the best academy
+
+
+    section#sponsorSection 
+        h2 Section for Sponsors 
+        div#sponsors
+            img(src="/static/img/sponsor1.jpg", alt ="sponsor image", class="spimage")
+            img(src="/static/img/sponsor2.jpg", alt ="sponsor image", class="spimage")
+            img(src="/static/img/sponsor3.jpg", alt ="sponsor image", class="spimage")
+            img(src="/static/img/sponsor4.jpg", alt ="sponsor image", class="spimage")  
+
+    script 
+        include ../static/index.js     

@@ -1,0 +1,19 @@
+{
+  "name": "dance-website",
+  "version": "1.0.0",
+  "description": "This is dance academy project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "parser": "^0.1.4",
+    "pug": "^3.0.2"
+  }
+}

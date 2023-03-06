@@ -1,0 +1,21 @@
+//- layout.pug
+html
+  head
+    title Dewaana Dance Academy
+    block scripts
+    block style
+
+  body
+    nav#navbar 
+            ul 
+                div#logo
+                    img(src="/static/img/logo.jpg")
+                li #[a(href="/") Home ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Classes ]
+                li #[a(href="/contact") Contact Us] 
+                li #[a(href="/") About Us] 
+    block content
+    footer#footer 
+        | Copyright Ⓒ 2023 DewaanaDanceAcademy.com   All right reserved.
+    
